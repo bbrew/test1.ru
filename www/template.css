@@ -1,0 +1,136 @@
+/* body */
+
+
+
+
+
+
+
+
+body {
+font-family: Georgia, serif;
+color:#FFCCFF;
+margin:0px;
+padding:0px;
+font-size: 14px;
+/*background: #222222;*/
+background-image: url(images/darkdenim3.png);
+}
+
+
+
+
+
+
+
+
+
+
+#logo {
+position:relative;
+background-image: url(images/logo.png);
+width:278;
+height:68;
+top:10;
+margin: auto; /*  margin: 0 auto; */
+}
+
+#transblock {
+position:absolute;
+background-image: url(images/transparent.png);
+z-index:0;
+width:687;
+height:530;
+left: -64;
+top:-14;
+}
+
+#arrowleft {
+position:absolute;
+left: -53;
+top:100;
+z-index:9;
+}
+#arrowright {
+position:absolute;
+left: 580;
+top:100;
+z-index:9;
+}
+
+
+#info {
+    background-image: url(/images/binding_dark.png);
+    width: 250px;
+    height: 100%;
+    color: white;
+    position: absolute;
+    left: -250;
+	z-index:10;
+}
+
+#userinfo {
+	position:absolute;
+}
+#userinfoname {
+	left:100;
+	top:10px;
+	position:absolute;
+	font:11pt Arial, Helvetica, sans-serif
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#videogeneral {
+	width: 800px;
+    padding: 10px; 
+    margin: auto; 
+}
+
+#videopos {
+position: relative;
+top: 10px;
+z-index:9;
+text-align:left;
+}
+
+#videoname {
+width:560;
+position: relative;
+top:28px;
+text-align:left;
+left:100;
+}
+
+
+#description {
+width:560;
+position:relative;
+top:15;
+font: 10pt Arial;
+}
+
+#addvid {
+position:absolute;
+top:500;
+left:15;
+}
+
+
+#clickme:hover {
+	margin:0 0 0 8;
+	cursor:pointer;
+} 
+
+#clickme2:hover {
+	cursor:pointer;
+}
